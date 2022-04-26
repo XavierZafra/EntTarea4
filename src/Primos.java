@@ -10,6 +10,7 @@ public class Primos {
             for (i=0; i<dim; i++) {
                 esPrimo[i] = true;
             }
+
             // Eliminar el 0 y el 1, que no son primos
             esPrimo[0] = esPrimo[1] = false;
             // Criba

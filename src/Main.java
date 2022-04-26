@@ -7,6 +7,7 @@ public class Main {
         int dato=teclado.nextInt();
         int vector[]=new int[dato];
         Primos primos = new Primos();
+
         System.out.println("\nVector inicial hasta :"+dato);
         for (int i = 0; i < vector.length; i++) {
             if (i%10==0) {
